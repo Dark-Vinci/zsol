@@ -15,6 +15,8 @@ const Footer = () => {
             <div>Terms and conditions</div>
         </div>
      );
-}
+    }
+// }SHA256:svS9Wdz2JycfuxEf+uym7HUiH3wsihx7yu7eTCyRCiM Echelon@DESKTOP-7A1FEOS
+
  
 export default Footer;
