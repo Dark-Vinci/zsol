@@ -5,6 +5,7 @@
   margin-bottom: 30px;
   -webkit-box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1);
           box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cardContainer div.img {
@@ -27,6 +28,7 @@
           align-items: center;
   padding-left: 15px;
   padding-top: 6px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cardContainer div.desc div.icons {
@@ -100,6 +102,7 @@
   height: auto;
   padding: 0px;
   margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cardContainer div.desc div.priceTitle div.title {
@@ -114,6 +117,7 @@
 .cardContainer div.desc div.priceTitle div.price {
   width: 30%;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cardContainer div.desc div.description {
@@ -125,6 +129,7 @@
   text-align: left;
   text-overflow: ellipsis;
   margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cardContainer div.desc div.des {

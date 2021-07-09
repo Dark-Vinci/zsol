@@ -3,7 +3,8 @@
     height: 367px;
     border-radius: 0px 20px 0px 20px;
     margin-bottom: 30px;
-    box-shadow: -5px 5px 7px rgba(0,0,0, 0.1) ;
+    box-shadow: -5px 5px 7px rgba(0,0,0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
 
     div.img {
         width: 100%;
@@ -18,6 +19,7 @@
         align-items: center;
         padding-left: 15px;
         padding-top: 6px;
+        font-family: Arial, Helvetica, sans-serif;
 
         div.icons {
            width: 100%;
@@ -70,6 +72,7 @@
             height: auto;
             padding: 0px;
             margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
 
             div.title {
                 width: 70%;
@@ -83,6 +86,7 @@
             div.price {
                 width: 30%;
                 font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
             }
         }
 
@@ -95,6 +99,7 @@
             text-align: left;
             text-overflow: ellipsis;
             margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         div.des {
