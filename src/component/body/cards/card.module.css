@@ -66,6 +66,7 @@
   bottom: -2px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  margin-bottom: 0px;
 }
 
 .cardContainer div.desc div.icons div.cross:active, .cardContainer div.desc div.icons div.cross:hover {
