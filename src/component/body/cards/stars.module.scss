@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    margin-left: 50px;
+
+    i:not(.checked) {
+        opacity: 0.3;
+    }
+
+    i.checked {
+        color: orange;
+    }
+}

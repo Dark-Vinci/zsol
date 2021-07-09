@@ -1,0 +1,134 @@
+.cardContainer {
+  width: 250px;
+  height: 367px;
+  border-radius: 0px 20px 0px 20px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1);
+          box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1);
+}
+
+.cardContainer div.img {
+  width: 100%;
+  height: 50%;
+  border-radius: 0px 20px 0px 20px;
+  background-size: 100% 100%;
+}
+
+.cardContainer div.desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+  padding-top: 6px;
+}
+
+.cardContainer div.desc div.icons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 36px;
+  border-radius: 0px 0px 0px 20px;
+  height: 53px;
+  padding-bottom: 15px;
+}
+
+.cardContainer div.desc div.icons div.cross {
+  width: 25%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  background-color: orangered;
+  color: white;
+  padding-bottom: 8px;
+  font-size: 45px;
+  border-radius: 20px 0px 0px 0px;
+  bottom: 0px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.cardContainer div.desc div.icons div.cross:active, .cardContainer div.desc div.icons div.cross:hover {
+  color: orangered;
+  background-color: white;
+  border: 2px solid orangered;
+}
+
+.cardContainer div.desc div.icons div.star {
+  width: 30%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardContainer div.desc div.priceTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+.cardContainer div.desc div.priceTitle div.title {
+  width: 70%;
+  text-align: left;
+  padding-top: 3px;
+  padding-left: 3px;
+  font-weight: bold;
+  padding: 0px;
+}
+
+.cardContainer div.desc div.priceTitle div.price {
+  width: 30%;
+  font-weight: bold;
+}
+
+.cardContainer div.desc div.description {
+  height: 35px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  font-size: 12px;
+  text-align: left;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+}
+
+.cardContainer div.desc div.des {
+  height: 20px;
+  width: 100%;
+  text-align: start;
+  padding: 0px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=card.module.css.map */

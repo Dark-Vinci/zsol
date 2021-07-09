@@ -1,0 +1,18 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 10px;
+  margin-left: 50px;
+}
+
+.container i:not(.checked) {
+  opacity: 0.3;
+}
+
+.container i.checked {
+  color: orange;
+}
+/*# sourceMappingURL=stars.module.css.map */

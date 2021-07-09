@@ -1,0 +1,59 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: cursive;
+}
+
+.container button {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: orangered;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container button:active, .container button:hover {
+  border: 2px solid orangered;
+  background-color: white;
+  color: orangered;
+}
+
+.container button.up {
+  width: 65px;
+  height: 65px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50px;
+}
+
+.container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container h3 {
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container p {
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=body.module.css.map */

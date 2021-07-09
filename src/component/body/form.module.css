@@ -1,0 +1,90 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  color: orangered;
+  margin: 10px;
+}
+
+.form div.each {
+  margin: 5px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form div.each label {
+  width: 100%;
+  margin-right: 20px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 30px;
+}
+
+.form div.each input {
+  outline: none;
+  border: 2px solid orangered;
+  width: auto;
+  height: 50px;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.form div.each input:active {
+  border-style: hidden solid;
+}
+
+@media screen and (min-width: 630px) {
+  .form {
+    width: 100vw;
+  }
+  .form div.each {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .form div.each input {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .form {
+    width: 100vw;
+  }
+  .form div.each input {
+    width: 500px;
+  }
+}
+/*# sourceMappingURL=form.module.css.map */
