@@ -3,7 +3,7 @@ import classe from './card.module.css';
 import Stars from './stars';
 
 const Card = (props) => {
-    const dec = props.description.slice(0, 90);
+    const dec = props.description.slice(0, 100);
     return ( 
         <div className = { classe.cardContainer}>
             <div className= { classe.img }
