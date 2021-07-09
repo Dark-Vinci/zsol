@@ -4,9 +4,9 @@
     align-items: center;
     width: 100%;
     height: auto;
-    margin-top: 30px;
     color: orangered;
     margin: 10px;
+    margin-top: 40px;
 
     div.each {
         margin: 5px;
@@ -35,6 +35,10 @@
                 border-style: hidden solid;
             }
         }
+    }
+
+    button {
+        margin: 20px;
     }
 }
 
