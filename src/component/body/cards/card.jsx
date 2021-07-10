@@ -16,7 +16,7 @@ const Card = (props) => {
                     <div className={ classe.price }>{ props.price }</div>
                 </div>
 
-                <div className={classe.des }>served with chicken and chips</div>
+                <div className={classe.des }>{ props.desc }</div>
 
                 <div 
                     className={ classe.description }   
