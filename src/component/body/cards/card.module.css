@@ -5,7 +5,7 @@
   margin-bottom: 30px;
   -webkit-box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1);
           box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1);
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cardContainer div.img {
@@ -27,8 +27,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding-left: 15px;
-  padding-top: 6px;
-  font-family: cursive;
+  padding-top: 4px;
 }
 
 .cardContainer div.desc div.icons {
@@ -39,7 +38,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 36px;
+  margin-top: 39px;
   border-radius: 0px 0px 0px 20px;
   height: 53px;
   padding-bottom: 15px;

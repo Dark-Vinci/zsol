@@ -16,7 +16,6 @@ function App() {
         const response = await axios.get(url);
         const data = response.data.data.meals;
         setData(data);
-        console.log(data)
       } catch(ex) {
         console.log(ex)
       }
