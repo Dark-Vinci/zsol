@@ -1,0 +1,18 @@
+/* .form button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: rgba(56, 56, 143, 1);
+    color: white;
+    /* cursor: wait; */
+    /* cursor: pointer;
+} */
+
+/* .form button:disabled {
+    background-color: rgba(56, 56, 143, 0.5);
+    /* color: black; */
+    /* font-size: 20px;
+    cursor: not-allowed;
+/* } */ 

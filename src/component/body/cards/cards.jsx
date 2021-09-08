@@ -5,12 +5,12 @@ import classe from './cards.module.css';
 const Cards = (props) => {
     const toReturn = props.foods.map((el) => {
         return <Card 
-            key = { el.id }
-            image = { el.strMealThumb }
+            key = { el._id }
+            url = { el.url }
             price = { el.price }
             description = { el.description }
             title = { el.title }
-            rating = { el.ratings }
+            star = { el.star }
             desc = { el.strMeal }
         />
     })
@@ -18,7 +18,7 @@ const Cards = (props) => {
         <div className = { classe.container }>
             { toReturn }
         </div>
-     );
+    );
 }
- 
+
 export default Cards;
