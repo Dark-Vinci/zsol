@@ -2,11 +2,6 @@ import React from 'react';
 import classe from './card.module.css';
 import Stars from './stars';
 
-function random (i, j) {
-    const rand = Math.floor(Math.random() * (j - i) + i);
-    return rand;
-}
-
 const Card = (props) => {
     const description = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti officia nesciunt nisi omnis asperiores ab? perspiciatis repellat rem assumenda vero distinctio, vel facilis doloribus, tenetur impedit illum ducimus ipsa!'
     const dec = description.slice(0, 100);

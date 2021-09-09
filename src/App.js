@@ -7,8 +7,9 @@ import Footer from './component/footer/footer';
 import Header from './component/header/header';
 
 function App() {
-  // const url = 'https://asm-dev-api.herokuapp.com/api/v1/food';
-  const url = 'http://localhost:1212/api/main/get-food';
+  const url = 'https://proj-tom-xv10w.herokuapp.com/api/main/get-food';
+  // const url = 'http://localhost:1212/api/main/get-food';
+  
   const [ food, setFood ] = useState([]);
 
   async function fetchHelper (url) {
